@@ -34,7 +34,7 @@ const observer = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe all animatable elements
-document.querySelectorAll('.timeline-item, .project-card, .publication-card, .skill-card, .contact-card, .section-header').forEach(el => {
+document.querySelectorAll('.timeline-item, .project-card, .publication-card, .skill-card, .contact-card, .section-header, .role-card').forEach(el => {
     el.classList.add('fade-in');
     observer.observe(el);
 });
