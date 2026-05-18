@@ -304,6 +304,14 @@ img {
     font-weight: 500;
 }
 
+.stat-highlight .stat-number {
+    color: #ffd700;
+}
+
+.stat-highlight .stat-label {
+    color: #ffa116;
+}
+
 /* Hero Card (Code Block) */
 .hero-visual {
     display: flex;
