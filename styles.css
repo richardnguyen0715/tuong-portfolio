@@ -556,14 +556,20 @@ img {
 }
 
 .company-logo-wrapper {
-    width: 56px;
-    height: 56px;
-    background: #ffffff;
+    width: 60px;
+    height: 60px;
+    background: var(--bg-secondary);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+.company-logo-wrapper.masan {
+    background: #ffffff;
     padding: 8px;
 }
 
@@ -578,16 +584,17 @@ img {
 }
 
 .company-logo-wrapper.intel-logo {
-    width: 48px;
-    height: 48px;
-    background: #ffffff;
-    padding: 6px;
+    width: 52px;
+    height: 52px;
+    background: var(--bg-secondary);
+    padding: 8px;
 }
 
 .company-logo {
     width: 100%;
     height: 100%;
     object-fit: contain;
+    display: block;
 }
 
 .company-badge {
