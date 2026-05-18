@@ -548,6 +548,40 @@ a.leetcode-showcase {
     font-weight: 500;
 }
 
+.leetcode-rank-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.8rem;
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.15), rgba(255, 161, 22, 0.15));
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    border-radius: 50px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #ffd700;
+}
+
+.leetcode-rank-badge i {
+    font-size: 0.65rem;
+    color: #ffd700;
+}
+
+.leetcode-beats {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #ff6b35;
+}
+
+.leetcode-beats i {
+    color: #ff6b35;
+    font-size: 0.75rem;
+}
+
 .leetcode-showcase-center {
     display: flex;
     align-items: center;
