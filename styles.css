@@ -472,7 +472,7 @@ img {
     padding: 3rem 2rem;
 }
 
-.leetcode-showcase {
+a.leetcode-showcase {
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 3rem;
